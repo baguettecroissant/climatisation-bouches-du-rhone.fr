@@ -1,0 +1,107 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+const title = "Tarif Climatisation Bouches-du-Rhône (13) : Prix Matériel & Pose 2026";
+const description = "Retrouvez les tarifs détaillés pour l'installation d'une climatisation réversible ou d'un gainable dans le 13. Prix du matériel, coût de pose, aides éligibles.";
+
+const breadcrumbItems = [
+  { label: "Accueil", url: "/" },
+  { label: "Tarifs Installation Climatisation" }
+];
+---
+
+<Layout title={title} description={description} activeTab="tarifs">
+  <Breadcrumb items={breadcrumbItems} />
+
+  <section style="padding: 50px 0 80px; background: white;">
+    <div class="container" style="max-width: 900px;">
+      <div style="text-align: center; margin-bottom: 50px;">
+        <span class="badge-pill" style="margin-bottom: 15px; background:var(--secondary); color:white; border:none;">💰 Transparence des Tarifs</span>
+        <h1 style="font-family: var(--font-heading); font-size: 36px; font-weight: 700; color: var(--primary); margin-bottom: 15px;">
+          Prix d'une Climatisation Réversible dans le 13
+        </h1>
+        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">
+          Découvrez notre grille de tarifs indicatifs 2026 pour l'achat et la pose de climatisation réversible, pompe à chaleur air-air, gainable, ainsi que pour les prestations d'entretien dans les Bouches-du-Rhône.
+        </p>
+      </div>
+
+      <!-- Pricing Table -->
+      <div style="background:var(--primary-light); border:2px solid var(--border-color); border-radius:var(--radius-md); overflow:hidden; margin-bottom:40px; box-shadow:var(--shadow-sm);">
+        <table style="width:100%; border-collapse:collapse; text-align:left; font-size:16px;">
+          <thead>
+            <tr style="background:var(--primary); color:white;">
+              <th style="padding:15px; color:white; font-weight:700;">Type de matériel</th>
+              <th style="padding:15px; color:white; font-weight:700;">Description de l'équipement</th>
+              <th style="padding:15px; color:white; font-weight:700;">Prix TTC Posé</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--border-color); background:white;">
+              <td style="padding:15px; font-weight:bold; color:var(--primary);">Split mural mono</td>
+              <td style="padding:15px; color:var(--text-muted);">2.5-3.5 kW, 1 pièce, Inverter A+++</td>
+              <td style="padding:15px; font-weight:bold; color:var(--secondary); font-family:var(--font-mono);">1 200 € – 2 500 €</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-color); background:#f8fafc;">
+              <td style="padding:15px; font-weight:bold; color:var(--primary);">Bi-split mural</td>
+              <td style="padding:15px; color:var(--text-muted);">2 unités intérieures, 1 unité ext.</td>
+              <td style="padding:15px; font-weight:bold; color:var(--secondary); font-family:var(--font-mono);">2 500 € – 4 500 €</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-color); background:white;">
+              <td style="padding:15px; font-weight:bold; color:var(--primary);">Tri-split mural</td>
+              <td style="padding:15px; color:var(--text-muted);">3 unités intérieures, 1 unité ext.</td>
+              <td style="padding:15px; font-weight:bold; color:var(--secondary); font-family:var(--font-mono);">3 500 € – 6 000 €</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-color); background:#f8fafc;">
+              <td style="padding:15px; font-weight:bold; color:var(--primary);">Quadri-split mural</td>
+              <td style="padding:15px; color:var(--text-muted);">4 unités intérieures, 1 unité ext.</td>
+              <td style="padding:15px; font-weight:bold; color:var(--secondary); font-family:var(--font-mono);">4 500 € – 8 000 €</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-color); background:white;">
+              <td style="padding:15px; font-weight:bold; color:var(--primary);">Climatisation Gainable</td>
+              <td style="padding:15px; color:var(--text-muted);">Faux-plafond, multi-pièces, invisible</td>
+              <td style="padding:15px; font-weight:bold; color:var(--secondary); font-family:var(--font-mono);">5 000 € – 12 000 €</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-color); background:#f8fafc;">
+              <td style="padding:15px; font-weight:bold; color:var(--primary);">PAC air-air réversible</td>
+              <td style="padding:15px; color:var(--text-muted);">Chaud + froid, COP 4.5, SCOP A+++</td>
+              <td style="padding:15px; font-weight:bold; color:var(--secondary); font-family:var(--font-mono);">3 000 € – 8 000 €</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-color); background:white;">
+              <td style="padding:15px; font-weight:bold; color:var(--primary);">Clim mobile (monobloc)</td>
+              <td style="padding:15px; color:var(--text-muted);">Sans installation fixe, d'appoint</td>
+              <td style="padding:15px; font-weight:bold; color:var(--secondary); font-family:var(--font-mono);">300 € – 800 €</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-color); background:#f8fafc;">
+              <td style="padding:15px; font-weight:bold; color:var(--primary);">Entretien annuel</td>
+              <td style="padding:15px; color:var(--text-muted);">Nettoyage filtres + contrôle fluide</td>
+              <td style="padding:15px; font-weight:bold; color:var(--secondary); font-family:var(--font-mono);">100 € – 200 €/an</td>
+            </tr>
+            <tr style="background:white;">
+              <td style="padding:15px; font-weight:bold; color:var(--primary);">Fluide R32 (recharge)</td>
+              <td style="padding:15px; color:var(--text-muted);">Mise aux normes écologiques, contrôle</td>
+              <td style="padding:15px; font-weight:bold; color:var(--secondary); font-family:var(--font-mono);">150 € – 400 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="background:white; border:2px solid var(--border-color); padding:30px; border-radius:var(--radius-md); margin-bottom:40px;">
+        <h3 style="color:var(--primary); margin-bottom:12px; font-size:20px; font-weight:700;">Quels facteurs influencent le prix final ?</h3>
+        <p style="font-size:15px; color:var(--text-muted); line-height:1.6; margin-bottom:15px;">
+          Le coût total de votre projet d'installation de climatisation dans les Bouches-du-Rhône dépend principalement de :
+        </p>
+        <ul style="margin-left:20px; display:flex; flex-direction:column; gap:8px; font-size:15px; color:var(--text-muted);">
+          <li>Le nombre d'unités intérieures à poser (mono-split vs multi-split).</li>
+          <li>La puissance frigorifique requise (calculée selon la surface, l'isolation et l'exposition au soleil du 13).</li>
+          <li>La complexité de pose (liaisons frigorifiques à passer dans les combles, carottage de murs épais).</li>
+          <li>La marque choisie (Daikin, Mitsubishi, Toshiba, Panasonic).</li>
+        </ul>
+      </div>
+
+      <div style="text-align:center;">
+        <a href="/devis/" class="btn-primary">Obtenir une estimation sur mesure</a>
+      </div>
+    </div>
+  </section>
+</Layout>
