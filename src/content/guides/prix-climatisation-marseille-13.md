@@ -28,7 +28,7 @@ Le prix global dépend en grande partie du nombre d'unités intérieures (les "s
 ### 1. Le coût du matériel
 Les grandes marques japonaises (Daikin, Mitsubishi Electric, Panasonic, Toshiba) sont particulièrement recommandées en Provence en raison de leur résistance exceptionnelle aux fortes chaleurs (performance préservée même par 43°C extérieur). 
 - Un compresseur extérieur et un split mural haut de gamme coûtent entre **800 € et 1 800 €** à l'achat pour un modèle mono-split.
-- Pour du gainable, le coût du système de diffusion et du plénum de régulation (de type Airzone) rajoute de **1 500 € à 3 000 €** au matériel de base.
+- Pour un [système gainable](/guides/split-mural-vs-gainable-logement-13/), le coût de diffusion et du plénum de régulation (de type Airzone) rajoute de **1 500 € à 3 000 €** au matériel de base.
 
 ### 2. Le tarif de la main-d'œuvre (Installation & Mise en service)
 La pose d'une climatisation nécessite l'intervention d'un frigoriste titulaire de l'**attestation de capacité de catégorie 1** pour manipuler les fluides frigorigènes (le gaz R32).
@@ -48,7 +48,7 @@ Le coût final de votre installation est déterminé par plusieurs éléments te
 
 ## Les Aides Financières Disponibles en 2026
 
-Dans les Bouches-du-Rhône, la transition énergétique est largement encouragée. Bien que les PAC air-air (climatisation classique) ne soient plus éligibles à MaPrimeRénov' de l'Anah en tant que telles, vous pouvez bénéficier de :
+Dans les Bouches-du-Rhône, la transition énergétique est largement encouragée. Bien que les PAC air-air (climatisation classique) ne soient plus éligibles à MaPrimeRénov' de l'Anah en tant que telles, vous pouvez bénéficier d'[aides financières en 2026](/guides/aides-financieres-climatisation-2026/) comme :
 *   **La Prime CEE (Certificats d'Économie d'Énergie) :** Versée par les fournisseurs d'énergie. Son montant varie selon vos revenus (entre 150 € et 800 €).
 *   **La TVA Réduite à 10 % :** Applicable sur la main-d'œuvre si votre logement a plus de 2 ans et que vous passez par un professionnel certifié RGE.
 
