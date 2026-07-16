@@ -7,7 +7,8 @@ export default defineConfig({
   site: 'https://climatisation-bouches-du-rhone.fr',
   output: 'static',
   adapter: cloudflare({
-    imageService: 'passthrough'
+    imageService: 'passthrough',
+    prerenderEnvironment: 'node'
   }),
   integrations: [
     sitemap({
