@@ -168,6 +168,22 @@ header {
   color: white !important;
 }
 
+/* Form Card overrides inside Hero */
+.form-card h1, 
+.form-card h2, 
+.form-card h3, 
+.form-card h4, 
+.form-card p, 
+.form-card strong, 
+.form-card label {
+  color: var(--text) !important;
+}
+
+.form-card .subtitle,
+.form-card .input-tip {
+  color: var(--text-muted) !important;
+}
+
 /* Snowflake background pattern (opacity 3%) */
 .hero::before {
   content: "";
