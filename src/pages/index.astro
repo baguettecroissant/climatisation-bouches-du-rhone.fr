@@ -1,4 +1,5 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import StepsForm from '../components/StepsForm.astro';
 import config from '../data/config.json';
@@ -9,6 +10,9 @@ const description = "Climatisation réversible & PAC air-air réversible dans le
 
 // We can show top 6 communes on home page
 const featuredCommunes = communes.slice(0, 6);
+
+// Fetch guides for internal linking
+const guides = await getCollection('guides');
 ---
 
 <Layout title={title} description={description} activeTab="home">
@@ -185,6 +189,47 @@ const featuredCommunes = communes.slice(0, 6);
           </p>
           <a href="/devis/" class="btn-secondary" style="width:100%;">Demander un devis</a>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Guides & Conseils Pratiques -->
+  <section style="padding:80px 0; background:white; border-top: 2px solid var(--border-color);">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:50px;">
+        <h2 style="color:var(--primary); margin-bottom:15px;">Dossiers &amp; Guides de Climatisation</h2>
+        <p style="color:var(--text-muted); font-size:16px; max-width:700px; margin:0 auto;">
+          Retrouvez nos dossiers d'experts pour tout comprendre sur la climatisation réversible, les tarifs et les aides financières en 2026.
+        </p>
+      </div>
+
+      <div class="grid-3" style="margin-bottom:40px;">
+        {guides.map((guide) => (
+          <div class="card" style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+            <div>
+              <span style="font-size: 12px; color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 8px; display: block;">
+                🗓️ Dossier 13
+              </span>
+              <h3 style="font-size: 18px; color: var(--primary); margin-bottom: 12px; font-weight: 700;">
+                <a href={`/guides/${guide.id}/`} style="text-decoration: none; color: inherit;">
+                  {guide.data.title}
+                </a>
+              </h3>
+              <p style="font-size: 14px; color: var(--text-muted); line-height: 1.5; margin-bottom: 20px;">
+                {guide.data.description}
+              </p>
+            </div>
+            <div>
+              <a href={`/guides/${guide.id}/`} style="font-size:14px; font-weight:700; color:var(--secondary); text-decoration:none;">
+                Lire la suite &rarr;
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div style="text-align:center;">
+        <a href="/guides/" class="btn-secondary">Voir tous nos guides</a>
       </div>
     </div>
   </section>
