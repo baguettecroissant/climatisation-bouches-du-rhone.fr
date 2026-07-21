@@ -4,7 +4,7 @@
  */
 
 // ── Site-specific config (change per R&R site) ──
-const SITE_DOMAIN = 'climatisation-bouches-du-rhone.fr';
+const SITE_DOMAIN = 'climatisation13.fr';
 const SITE_NICHE = 'climatisation';
 const DEPT_CODE = '13';
 const CP_PATTERN = /^13\d{3}$/;

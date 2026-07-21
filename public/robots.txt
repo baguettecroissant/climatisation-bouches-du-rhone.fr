@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://climatisation-bouches-du-rhone.fr/sitemap-index.xml
+Sitemap: https://climatisation13.fr/sitemap-index.xml

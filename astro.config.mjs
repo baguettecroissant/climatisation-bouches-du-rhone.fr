@@ -4,7 +4,7 @@ import cloudflare from '@astrojs/cloudflare';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://climatisation-bouches-du-rhone.fr',
+  site: 'https://climatisation13.fr',
   output: 'static',
   adapter: cloudflare({
     imageService: 'passthrough',
